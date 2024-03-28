@@ -124,3 +124,9 @@ main h3{
   text-decoration: none;
   color: rgb(79, 79, 79);
 }
+.carousel-control-prev {
+  left: -120px;
+}
+.carousel-control-next {
+  right: -120px;
+}
