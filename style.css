@@ -1,0 +1,126 @@
+#accnotif {
+  top: 10px;
+  right: 10px;
+}
+#accnotif a{
+  position: relative;
+}
+i {
+  width: 20px;
+}
+
+/* impostiamo i 2 pulsanti destri della navbar in modo che quando appaia l'hamburger menù si spostino alla sua sinistra */
+@media screen and (max-width: 991.28px) {
+  #accnotif {
+    right: 90px;
+  }
+  #herobtn {
+    margin-bottom: 10px;
+  }
+}
+
+#notif-btn {
+  background-color: rgb(223, 223, 223);
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+}
+#notif-btn::after{
+  content: '';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  top: 3px;
+  right: 1px;
+  background-color: #7d59ff;
+  border-radius: 10px;
+  border: 1.5px solid white;
+}
+#notif-bell {
+  width: 25px;
+  border-radius: 20px;
+}
+
+.account-img {
+  width: 40px;
+  border-radius: 30px;
+}
+#accountimg::after{
+  content: '';
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  bottom: 3px;
+  right: 1px;
+  background-color: #1acb98;
+  border-radius: 10px;
+  border: 1.5px solid white;
+}
+.bg-hero { 
+  background-color: #7550fe;
+}
+#browse-btn {
+  background-color: #1acb98;
+}
+li {
+  list-style-type: none;
+}
+.badge-primary {
+  border-radius: 40px;
+}
+
+.sub-hero h4 {
+  margin-top: 10px;
+}
+
+.sub-hero .icon-sub-hero {
+  height: 40px;
+  width: 40px;
+  background-color: #ffeeda;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.sub-hero .icon-sub-hero .bi{
+  display: flex;
+  justify-content: center;
+  color: #c28135 ;
+}
+#firstcarousel {
+  margin-top: 20px;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 20px;
+}
+.carousel-control-prev-icon {
+  background-color: black;
+  border-radius: 20px;
+}
+main h3{
+  font-size: 30px;
+  
+}
+.card-text {
+  font-size: 20px;
+  color: black;
+  font-weight: 700;
+}
+.spansales {
+  text-decoration: line-through;
+  color: grey;
+  font-weight: 500;
+}
+
+.card-body {
+  height: 300px;
+}
+.card-title {
+  height: 60px;
+}
+.card-usersect {
+  text-decoration: none;
+  color: rgb(79, 79, 79);
+}
